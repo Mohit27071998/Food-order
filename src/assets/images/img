@@ -1,0 +1,88 @@
+<img class="sc-dcJsrY kMtDjj" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/asd7v64r8hjmbx5nivyh" alt="Theobroma">
+<img class="sc-dcJsrY kMtDjj" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/nz4ifkepwxbdsnrrm5gp" alt="Chocolate Biclate">
+<img class="sc-dcJsrY kMtDjj" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ee5f8e06b300efc07c9fe3f4df40dfc4" alt="McDonald's">
+<img class="sc-dcJsrY kMtDjj" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/pawz87ibiatpceg5uvpa" alt="Priya">
+<img class="sc-dcJsrY kMtDjj" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/cfe5a6b2c186e42811f595e7ebfd7331" alt="Mankar Dosa">
+<img class="sc-dcJsrY kMtDjj" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/xofljpukrkkbftsjospa" alt="Chaitanya Paranthas">
+<img class="sc-dcJsrY kMtDjj" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/qa4b7930tctpdaceahud" alt="Cafe Durga - Wadia College">
+<img class="sc-dcJsrY kMtDjj" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/b4354613a947fdd8bee0d0d053f78313" alt="Uncle's Chinese">
+<img class="sc-dcJsrY kMtDjj" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/8cb220fa3997a3b928d2ffb6c098acaf" alt="The Belgian Waffle Co.">
+<img class="sc-dcJsrY kMtDjj" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/edf8410c87fc2a56e2e047bec146702b" alt="Haldiram's Sweets and Namkeen">
+<img class="sc-dcJsrY kMtDjj" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/af33b81798b11deba338e94b7585d348" alt="Faasos - Wraps &amp; Rolls">
+<img class="sc-dcJsrY kMtDjj" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jfrnppuakfdh0g2rpmug" alt="Suchali's Artisan Bakehouse">
+
+const menuItems = {
+    m1: {
+      name: 'Pizza',
+      description: 'Available only veggies',
+      price: 99,
+      imageSrc: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/asd7v64r8hjmbx5nivyh',
+    },
+    m2: {
+      name: 'Burger',
+      description: 'Too yummy',
+      price: 89,
+      imageSrc: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/nz4ifkepwxbdsnrrm5gp',
+    },
+    m3: {
+      name: 'South Indian',
+      description: 'Best in Market',
+      price: 149,
+      imageSrc: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ee5f8e06b300efc07c9fe3f4df40dfc4',
+    },
+    m4: {
+      name: 'Chinese',
+      description: 'For Spicy Lovers',
+      price: 199,
+      imageSrc: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/pawz87ibiatpceg5uvpa',
+    },
+    m5: {
+      name: 'Theobroma',
+      description: '',
+      price: 0,
+      imageSrc: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/asd7v64r8hjmbx5nivyh',
+    },
+    m6: {
+      name: 'Chocolate Biclate',
+      description: '',
+      price: 0,
+      imageSrc: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/nz4ifkepwxbdsnrrm5gp',
+    },
+    m7: {
+      name: "McDonald's",
+      description: '',
+      price: 0,
+      imageSrc: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ee5f8e06b300efc07c9fe3f4df40dfc4',
+    },
+    m8: {
+      name: 'Priya',
+      description: '',
+      price: 0,
+      imageSrc: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/pawz87ibiatpceg5uvpa',
+    },
+    m9: {
+      name: 'Mankar Dosa',
+      description: '',
+      price: 0,
+      imageSrc: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/xofljpukrkkbftsjospa',
+    },
+    m10: {
+      name: 'Chaitanya Paranthas',
+      description: '',
+      price: 0,
+      imageSrc: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/qa4b7930tctpdaceahud',
+    },
+    m11: {
+      name: 'Cafe Durga - Wadia College',
+      description: '',
+      price: 0,
+      imageSrc: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/b4354613a947fdd8bee0d0d053f78313',
+    },
+    m12: {
+      name: "Uncle's Chinese",
+      description: '',
+      price: 0,
+      imageSrc: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/8cb220fa3997a3b928d2ffb6c098acaf',
+    },
+  };
+  
